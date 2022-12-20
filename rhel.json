@@ -1,0 +1,23 @@
+{
+    "builders": [
+        {
+            "type": "azure-arm",
+            "subscription_id": "059c1847-bbc4-4585-ac6d-3eef6830da49",
+            "client_id": "fd3385ad-55d0-4e4b-8904-73794fa396ff",
+            "client_secret": "DmH8Q~3BkeTsKBrpVKl5Wt9gyOQWUp2qOT~AQbRz",
+            "tenant_id": "5d4df24d-6769-4586-9455-dd6db3f30f0e",
+            "managed_image_resource_group_name": "myResourceGroup",
+            "managed_image_name": "myRHELImage",
+            "os_type": "Linux",
+            "image_publisher": "RedHat",
+            "image_offer": "RHEL",
+            "image_sku": "82gen2",
+            "azure_tags": {
+                "contact": "Azure",
+                "customer": "Azure"
+            },
+            "location": "North Europe",
+            "vm_size": "Standard_DS2_v2"
+        }
+    ]
+}
